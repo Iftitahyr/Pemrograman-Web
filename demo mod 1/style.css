@@ -1,0 +1,609 @@
+.ceramify {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .ceramify .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1949px;
+    position: relative;
+  }
+  
+  .ceramify .overlap {
+    position: absolute;
+    width: 1513px;
+    height: 1626px;
+    top: 0;
+    left: -67px;
+  }
+  
+  .ceramify .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 1023px;
+    top: 0;
+    left: 67px;
+    background-color: #f7ede3;
+  }
+  
+  .ceramify .text-wrapper {
+    width: 195px;
+    height: 47px;
+    top: 19px;
+    left: 102px;
+    font-size: 24px;
+    line-height: 22px;
+    position: absolute;
+    font-family: "Hedvig Letters Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .ceramify .navbar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 60px;
+    position: absolute;
+    top: 37px;
+    left: 867px;
+  }
+  
+  .ceramify .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #34423d;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .ceramify .filled-user {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 32px;
+    left: 1362px;
+  }
+  
+  .ceramify .line-square-bell {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 32px;
+    left: 1324px;
+  }
+  
+  .ceramify .text-wrapper-3 {
+    width: 738px;
+    height: 164px;
+    top: 168px;
+    left: 418px;
+    font-size: 96px;
+    line-height: 36px;
+    position: absolute;
+    font-family: "Hedvig Letters Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .ceramify .paragraph {
+    width: 492px;
+    top: 332px;
+    left: 541px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--neutral-colors700);
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .ceramify .group {
+    position: absolute;
+    width: 1513px;
+    height: 660px;
+    top: 966px;
+    left: 0;
+  }
+  
+  .ceramify .overlap-group {
+    position: relative;
+    width: 1507px;
+    height: 660px;
+  }
+  
+  .ceramify .rectangle-2 {
+    position: absolute;
+    width: 1440px;
+    height: 660px;
+    top: 0;
+    left: 67px;
+    background-color: #536760;
+  }
+  
+  .ceramify .p {
+    width: 924px;
+    height: 55px;
+    top: 145px;
+    left: 0;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #f7ede3;
+    font-size: 36px;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .ceramify .paragraph-2 {
+    width: 302px;
+    height: 19px;
+    top: 453px;
+    left: 311px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #f7ede3;
+    font-size: 24px;
+    white-space: nowrap;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .ceramify .text-wrapper-4 {
+    position: absolute;
+    width: 449px;
+    height: 139px;
+    top: 257px;
+    left: 238px;
+    font-family: "Hedvig Letters Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .ceramify .img {
+    position: absolute;
+    width: 720px;
+    height: 659px;
+    top: 0;
+    left: 787px;
+  }
+  
+  .ceramify .rectangle-3 {
+    position: absolute;
+    width: 1440px;
+    height: 670px;
+    top: 296px;
+    left: 67px;
+    background-color: #f7ede3;
+  }
+  
+  .ceramify .text-wrapper-5 {
+    position: absolute;
+    top: 376px;
+    left: 670px;
+    font-family: var(--desktop-heading-size-large-48-font-family);
+    font-weight: var(--desktop-heading-size-large-48-font-weight);
+    color: #34423d;
+    font-size: var(--desktop-heading-size-large-48-font-size);
+    letter-spacing: var(--desktop-heading-size-large-48-letter-spacing);
+    line-height: var(--desktop-heading-size-large-48-line-height);
+    white-space: nowrap;
+    font-style: var(--desktop-heading-size-large-48-font-style);
+  }
+  
+  .ceramify .component {
+    position: absolute;
+    width: 1284px;
+    height: 357px;
+    top: 510px;
+    left: 147px;
+  }
+  
+  .ceramify .frame {
+    display: flex;
+    flex-direction: column;
+    width: 273px;
+    height: 357.45px;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .ceramify .rectangle-wrapper {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 252.45px;
+    border-radius: 9999px 9999px 0px 0px;
+    overflow: hidden;
+  }
+  
+  .ceramify .rectangle-4 {
+    position: absolute;
+    width: 273px;
+    height: 252px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .ceramify .rose-flower-cups-set {
+    position: relative;
+    width: fit-content;
+    font-family: var(--desktop-heading-size-regular-font-family);
+    font-weight: var(--desktop-heading-size-regular-font-weight);
+    color: #34423d;
+    font-size: var(--desktop-heading-size-regular-font-size);
+    text-align: center;
+    letter-spacing: var(--desktop-heading-size-regular-letter-spacing);
+    line-height: var(--desktop-heading-size-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--desktop-heading-size-regular-font-style);
+  }
+  
+  .ceramify .div-wrapper {
+    display: inline-flex;
+    height: 44px;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 16px 24px;
+    position: relative;
+    border-radius: 31px;
+    border: 1.5px solid;
+    border-color: #34423d;
+  }
+  
+  .ceramify .text-wrapper-6 {
+    position: relative;
+    align-self: stretch;
+    width: 63px;
+    margin-top: -1.5px;
+    font-family: var(--desktop-text-buttons-small-font-family);
+    font-weight: var(--desktop-text-buttons-small-font-weight);
+    color: #34423d;
+    font-size: var(--desktop-text-buttons-small-font-size);
+    letter-spacing: var(--desktop-text-buttons-small-letter-spacing);
+    line-height: var(--desktop-text-buttons-small-line-height);
+    white-space: nowrap;
+    font-style: var(--desktop-text-buttons-small-font-style);
+  }
+  
+  .ceramify .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 273px;
+    height: 357.45px;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 0;
+    left: 337px;
+  }
+  
+  .ceramify .img-wrapper {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 252.45px;
+    border-radius: 999px 999px 0px 0px;
+    overflow: hidden;
+  }
+  
+  .ceramify .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--desktop-heading-size-regular-font-family);
+    font-weight: var(--desktop-heading-size-regular-font-weight);
+    color: #34423d;
+    font-size: var(--desktop-heading-size-regular-font-size);
+    text-align: center;
+    letter-spacing: var(--desktop-heading-size-regular-letter-spacing);
+    line-height: var(--desktop-heading-size-regular-line-height);
+    font-style: var(--desktop-heading-size-regular-font-style);
+  }
+  
+  .ceramify .frame-3 {
+    display: flex;
+    flex-direction: column;
+    width: 273px;
+    height: 357.45px;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 0;
+    left: 674px;
+  }
+  
+  .ceramify .frame-4 {
+    display: flex;
+    flex-direction: column;
+    width: 273px;
+    height: 357.45px;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 0;
+    left: 1011px;
+  }
+  
+  .ceramify .frame-5 {
+    display: flex;
+    width: 111px;
+    height: 44px;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 16px 24px;
+    position: relative;
+    border-radius: 31px;
+    border: 1.5px solid;
+    border-color: #34423d;
+  }
+  
+  .ceramify .text-wrapper-8 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    margin-top: -1.5px;
+    font-family: var(--desktop-text-buttons-small-font-family);
+    font-weight: var(--desktop-text-buttons-small-font-weight);
+    color: #34423d;
+    font-size: var(--desktop-text-buttons-small-font-size);
+    letter-spacing: var(--desktop-text-buttons-small-letter-spacing);
+    line-height: var(--desktop-text-buttons-small-line-height);
+    white-space: nowrap;
+    font-style: var(--desktop-text-buttons-small-font-style);
+  }
+  
+  .ceramify .overlap-2 {
+    position: absolute;
+    width: 1440px;
+    height: 323px;
+    top: 1626px;
+    left: 0;
+    background-color: #f7ede3;
+  }
+  
+  .ceramify .FAQ {
+    position: absolute;
+    width: 138px;
+    top: 98px;
+    left: 314px;
+    font-family: "Marcellus-Regular", Helvetica;
+    font-weight: 400;
+    color: #34423d;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+  }
+  
+  .ceramify .text-wrapper-9 {
+    position: absolute;
+    width: 138px;
+    top: 151px;
+    left: 314px;
+    font-family: "Marcellus-Regular", Helvetica;
+    font-weight: 400;
+    color: #34423d;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+  }
+  
+  .ceramify .text-wrapper-10 {
+    position: absolute;
+    width: 138px;
+    top: 204px;
+    left: 314px;
+    font-family: "Marcellus-Regular", Helvetica;
+    font-weight: 400;
+    color: #34423d;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+  }
+  
+  .ceramify .text-wrapper-11 {
+    position: absolute;
+    width: 138px;
+    top: 98px;
+    left: 651px;
+    font-family: "Marcellus-Regular", Helvetica;
+    font-weight: 400;
+    color: #34423d;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+  }
+  
+  .ceramify .text-wrapper-12 {
+    position: absolute;
+    width: 138px;
+    top: 98px;
+    left: 988px;
+    font-family: "Marcellus-Regular", Helvetica;
+    font-weight: 400;
+    color: #34423d;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+  }
+  
+  .ceramify .term-of-used {
+    position: absolute;
+    width: 138px;
+    top: 151px;
+    left: 651px;
+    font-family: "Marcellus-Regular", Helvetica;
+    font-weight: 400;
+    color: #34423d;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+  }
+  
+  .ceramify .text-wrapper-13 {
+    position: absolute;
+    width: 138px;
+    top: 204px;
+    left: 651px;
+    font-family: "Marcellus-Regular", Helvetica;
+    font-weight: 400;
+    color: #34423d;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+  }
+  
+  .ceramify .copyright {
+    position: absolute;
+    top: 280px;
+    left: 506px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #34423d;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .ceramify .span {
+    font-family: var(--display-3-regular-font-family);
+    font-weight: var(--display-3-regular-font-weight);
+    color: #34423d;
+    font-size: var(--display-3-regular-font-size);
+    letter-spacing: var(--display-3-regular-letter-spacing);
+    line-height: var(--display-3-regular-line-height);
+    font-style: var(--display-3-regular-font-style);
+  }
+  
+  .ceramify .text-wrapper-14 {
+    text-decoration: underline;
+    font-family: var(--display-3-underline-regular-font-family);
+    font-style: var(--display-3-underline-regular-font-style);
+    font-weight: var(--display-3-underline-regular-font-weight);
+    letter-spacing: var(--display-3-underline-regular-letter-spacing);
+    line-height: var(--display-3-underline-regular-line-height);
+    font-size: var(--display-3-underline-regular-font-size);
+  }
+  
+  .ceramify .instagram {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 144px;
+    left: 988px;
+  }
+  
+  .ceramify .facebook {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 214px;
+    left: 988px;
+  }
+  
+  .ceramify .tiktok {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 141px;
+    left: 1059px;
+  }
+  
+  .ceramify .whatsapp {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 214px;
+    left: 1059px;
+  }
+
+  :root {
+    --neutral-colors700: rgba(89, 86, 103, 1);
+    --desktop-heading-size-large-48-font-family: "Marcellus", Helvetica;
+    --desktop-heading-size-large-48-font-weight: 400;
+    --desktop-heading-size-large-48-font-size: 48px;
+    --desktop-heading-size-large-48-letter-spacing: 0px;
+    --desktop-heading-size-large-48-line-height: 110.00000238418579%;
+    --desktop-heading-size-large-48-font-style: normal;
+    --desktop-heading-size-regular-font-family: "Marcellus", Helvetica;
+    --desktop-heading-size-regular-font-weight: 400;
+    --desktop-heading-size-regular-font-size: 24px;
+    --desktop-heading-size-regular-letter-spacing: 0px;
+    --desktop-heading-size-regular-line-height: 120.00000476837158%;
+    --desktop-heading-size-regular-font-style: normal;
+    --desktop-text-buttons-small-font-family: "Raleway", Helvetica;
+    --desktop-text-buttons-small-font-weight: 400;
+    --desktop-text-buttons-small-font-size: 16px;
+    --desktop-text-buttons-small-letter-spacing: 0px;
+    --desktop-text-buttons-small-line-height: normal;
+    --desktop-text-buttons-small-font-style: normal;
+    --display-3-regular-font-family: "Inter", Helvetica;
+    --display-3-regular-font-weight: 400;
+    --display-3-regular-font-size: 16px;
+    --display-3-regular-letter-spacing: 0px;
+    --display-3-regular-line-height: 22px;
+    --display-3-regular-font-style: normal;
+    --display-3-underline-regular-font-family: "Inter", Helvetica;
+    --display-3-underline-regular-font-weight: 400;
+    --display-3-underline-regular-font-size: 16px;
+    --display-3-underline-regular-letter-spacing: 0px;
+    --display-3-underline-regular-line-height: 22px;
+    --display-3-underline-regular-font-style: normal;
+}
+
+/* Styleguide CSS */
+.ceramify {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Contoh aturan lain dari styleguide.css */
+.ceramify__title {
+    font-family: var(--desktop-heading-size-large-48-font-family);
+    font-weight: var(--desktop-heading-size-large-48-font-weight);
+    font-size: var(--desktop-heading-size-large-48-font-size);
+    letter-spacing: var(--desktop-heading-size-large-48-letter-spacing);
+    line-height: var(--desktop-heading-size-large-48-line-height);
+    color: var(--neutral-colors700);
+    text-align: center;
+}
+
+.ceramify__subtitle {
+    font-family: var(--desktop-heading-size-regular-font-family);
+    font-weight: var(--desktop-heading-size-regular-font-weight);
+    font-size: var(--desktop-heading-size-regular-font-size);
+    letter-spacing: var(--desktop-heading-size-regular-letter-spacing);
+    line-height: var(--desktop-heading-size-regular-line-height);
+    color: var(--neutral-colors700);
+    text-align: center;
+}
